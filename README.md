@@ -7,3 +7,11 @@
     let arr = [1, 2, 3];
     arr.push(4); // [1, 2, 3, 4]
     ```
+## 2. `pop()`
+- **Purpose**: Removes the last element from an array.
+- **Returns**: The removed element.
+- **Example**:
+    ```js
+    let arr = [1, 2, 3];
+    arr.pop(); // [1, 2], returns 3
+    ```
