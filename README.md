@@ -15,3 +15,12 @@
     let arr = [1, 2, 3];
     arr.pop(); // [1, 2], returns 3
     ```
+
+## 3. `shift()`
+- **Purpose**: Removes the first element from an array.
+- **Returns**: The removed element.
+- **Example**:
+    ```js
+    let arr = [1, 2, 3];
+    arr.shift(); // [2, 3], returns 1
+    ```
