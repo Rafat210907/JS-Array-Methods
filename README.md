@@ -24,3 +24,11 @@
     let arr = [1, 2, 3];
     arr.shift(); // [2, 3], returns 1
     ```
+## 4. `unshift()`
+- **Purpose**: Adds one or more elements to the beginning of an array.
+- **Returns**: New length of the array.
+- **Example**:
+    ```js
+    let arr = [1, 2, 3];
+    arr.unshift(0); // [0, 1, 2, 3]
+    ```
