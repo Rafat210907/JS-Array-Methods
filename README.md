@@ -32,3 +32,12 @@
     let arr = [1, 2, 3];
     arr.unshift(0); // [0, 1, 2, 3]
     ```
+## 5. `concat()`
+- **Purpose**: Merges two or more arrays without modifying the original arrays.
+- **Returns**: A new array.
+- **Example**:
+    ```js
+    let arr1 = [1, 2];
+    let arr2 = [3, 4];
+    let result = arr1.concat(arr2); // [1, 2, 3, 4]
+    ```
