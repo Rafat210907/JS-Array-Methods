@@ -41,3 +41,11 @@
     let arr2 = [3, 4];
     let result = arr1.concat(arr2); // [1, 2, 3, 4]
     ```
+## 6. `slice()`
+- **Purpose**: Returns a shallow copy of a portion of an array without modifying the original array.
+- **Returns**: A new array.
+- **Example**:
+    ```js
+    let arr = [1, 2, 3, 4];
+    let sliced = arr.slice(1, 3); // [2, 3]
+    ```
